@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Music Player</title>
+        <link rel="stylesheet" href="./style.css">
+    </head>
+    <body>
+        <header>
+            <img src="./svgs/playlist.svg" alt="playlist" id="playlist-icon">
+            <h2>Language of Soul</h2>
+            <img src="./svgs/music.svg" alt="music" id="music-icon">
+        </header>
+        <main>
+            <div class="left">
+                <div class="song-image"></div>
+                <div class="volume-div">
+                    <div class="volume-img">
+                        <img src="./svgs/volume.svg" alt="volume" id="volume-img">
+                    </div>
+                    <input type="range" value="100" id="volume-range" onchange="volume()">
+                </div>
+            </div>
+            <div class="right">
+                <div class="details">
+                    <h3 id="song-name">Iraaday</h3>
+                    <h5 id="song-artist">Abdul Hanan</h5>
+                </div>
+                <input type="range" value="0" id="duration" onchange="setduration()">
+                <div class="controls">
+                    <div class="previous">
+                        <img src="./svgs/previous.svg" alt="previous"
+                            id="previous" onclick="previous()">
+                    </div>
+                    <div class="play">
+                        <img src="./svgs/play.svg" alt="play" id="play"
+                            onclick="playpause()">
+                    </div>
+                    <div class="next">
+                        <img src="./svgs/next.svg" alt="next" id="next"
+                            onclick="next()">
+                    </div>
+                </div>
+            </div>
+            <div class="playlist">
+                <div class="playlist-song">
+                    <img src="./images/iraaday.jpg">
+                    <div class="song-details">
+                        <h2>Iraaday</h2>
+                        <h5>Abdul Hanan</h5>
+                    
+                    </div>
+              </div>
+                <div class="playlist-song">
+                    <img src="./images/behkana.jpg">
+                    <div class="song-details">
+                        <h2>Behkana</h2>
+                        <h5>Ali Tariq & Harshdeep Kaur</h5>
+                    
+                    </div>
+                </div>
+                <div class="playlist-song">
+                    <img src="./images/chaaptilak.jpg">
+                    <div class="song-details">
+                        <h2>Chaap Tilak</h2>
+                        <h5>Sargam Jassu & Nakash Aziz</h5>
+                    
+                    </div>
+                </div>
+                <div class="playlist-song">
+                    <img src="./images/arzkiyahai.jpg">
+                    <div class="song-details">
+                        <h2>Arz Kiya Hai</h2>
+                        <h5>Anuv Jain</h5>
+                    
+                    </div>
+                </div>
+            </div>
+        </main>
+
+        <script src="./script.js"></script>
+    </body>
+</html>
