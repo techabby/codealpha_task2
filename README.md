@@ -32,7 +32,7 @@ This project lets users listen to audio tracks with basic controls inside a clea
 ---
 
 ## 📸 Screenshots
-![Music Player UI](/images/image.png)
+![Music Player UI](image.png)
 
 ---
 
