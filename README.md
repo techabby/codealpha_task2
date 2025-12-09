@@ -32,7 +32,7 @@ This project lets users listen to audio tracks with basic controls inside a clea
 ---
 
 ## 📸 Screenshots
-(Add screenshots here if you want)
+(image.png)
 
 ---
 
